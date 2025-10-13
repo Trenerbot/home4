@@ -10,7 +10,7 @@ int main(int argc, char** argv) {
     }
 
     for(int j = 9; j >= 0; j--) {
-        printf("%.0f ", a[j]);
+        printf("%.3f ", a[j]);
     }
     return 0;
 }

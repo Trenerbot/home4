@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
     }
     
     for(int i = 0; i < 10; i++) {
-        printf("%.0f ", c[i]);
+        printf("%.3f ", c[i]);
     }
     return 0;
 }
